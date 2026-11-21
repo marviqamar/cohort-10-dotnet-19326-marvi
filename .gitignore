@@ -1,0 +1,32 @@
+
+# .NET build files
+**/bin/
+**/obj/
+
+# .NET user-specific files
+*.user
+*.suo
+
+# React / Node.js dependencies
+**/node_modules/
+
+# React build output
+**/dist/
+**/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vs/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
