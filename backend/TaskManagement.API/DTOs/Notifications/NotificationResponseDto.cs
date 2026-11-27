@@ -1,0 +1,16 @@
+namespace TaskManagement.API.DTOs.Notifications;
+
+public class NotificationResponseDto
+{
+    public int Id { get; set; }
+
+    public string Title { get; set; } = string.Empty;
+
+    public string Message { get; set; } = string.Empty;
+
+    public int? TaskId { get; set; }
+
+    public bool IsRead { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+}
